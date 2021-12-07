@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LstsqApplication<lstsq>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.bluescript.demo.lstsq.LstsqApplication",
+            "projectName": "lstsq",
+            "args": ""
+        }
+    ]
+}

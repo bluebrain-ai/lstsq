@@ -1,0 +1,57 @@
+# Created at 2021-12-07T16:11:15.735
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2021-12-07T16:11:18.428
+Unexpected IOException with stream: 2021-12-07 16:11:18.427  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:21.644
+Unexpected IOException with stream: 2021-12-07 16:11:21.644  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:24.650
+Unexpected IOException with stream: 2021-12-07 16:11:24.649  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:27.873
+Unexpected IOException with stream: 2021-12-07 16:11:27.873  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:31.091
+Unexpected IOException with stream: 2021-12-07 16:11:31.090  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:31.468
+Unexpected IOException with stream: 2021-12-07 16:11:31.468  INFO 4556 --- [| adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1638873691465, tries=1, nextAllowedTryMs=1638873691566) timed out at 1638873691466 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+
+
+
+# Created at 2021-12-07T16:11:34.317
+Unexpected IOException with stream: 2021-12-07 16:11:34.316  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:37.235
+Unexpected IOException with stream: 2021-12-07 16:11:37.234  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:40.279
+Unexpected IOException with stream: 2021-12-07 16:11:40.278  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:43.210
+Unexpected IOException with stream: 2021-12-07 16:11:43.209  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
+# Created at 2021-12-07T16:11:46.328
+Unexpected IOException with stream: 2021-12-07 16:11:46.327  WARN 4556 --- [| adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+
+
